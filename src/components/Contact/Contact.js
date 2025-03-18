@@ -31,7 +31,15 @@ function Contact() {
 
           {/* Right Side: Embedded Google Form */}
           <div className="google-form">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf09nJHs8vgU-3NlI1KLT53utvXhvSppySp3t5WBybQk23T7g/viewform?embedded=true" width="640" height="713" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf09nJHs8vgU-3NlI1KLT53utvXhvSppySp3t5WBybQk23T7g/viewform?embedded=true" 
+          width="640" 
+          height="713" 
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0" 
+          title="Contact Form">
+          Loading…
+          </iframe>
           </div>
         </div>
       </div>
