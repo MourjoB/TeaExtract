@@ -1,0 +1,148 @@
+header {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--light-text);
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 2rem;
+  }
+  
+  .nav-links a {
+    color: var(--light-text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: var(--light-color);
+  }
+  
+  .mobile-menu {
+    display: none;
+    font-size: 1.5rem;
+    color: var(--light-text);
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: var(--primary-color);
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 0.5rem 0;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  }
+  /* Override any existing styles with these more specific selectors */
+header.white-header {
+  background-color: white;
+  border: none;
+}
+
+.white-header .container {
+  background-color: white;
+  border: none;
+}
+
+.white-nav {
+  background-color: white;
+  border: none !important; /* Use !important to override any existing border styles */
+  box-shadow: none;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+/* Make sure your navigation links have appropriate color for visibility against white background */
+.nav-links a {
+  color: #333; /* Or any color that matches your design */
+}
+
+header.white-header {
+  background-color: white;
+  border: none;
+}
+
+.white-header .container {
+  background-color: white;
+  border: none;
+}
+
+.white-nav {
+  background-color: white;
+  border: none !important;
+  box-shadow: none;
+}
+
+/* New styles for the logos container */
+.logos-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between logos */
+}
+
+.logo-image {
+  height: 40px; /* Adjust as needed */
+  width: auto;
+}
+
+.purple-beans-logo {
+  height: 40px; /* You can adjust this separately if needed */
+}
+
+/* Make sure your navigation links have appropriate color */
+.nav-links a {
+  color: #333;
+}
+
+/* Responsive adjustment for logos */
+@media (max-width: 768px) {
+  .logos-container {
+    gap: 10px;
+  }
+  
+  .logo-image {
+    height: 30px; /* Smaller on mobile */
+  }
+}
