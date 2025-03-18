@@ -15,17 +15,17 @@ function Contact() {
             <div className="info-card">
               <FaEnvelope className="info-icon" />
               <h3>Email</h3>
-              <p>info@sitanaturals.com</p>
+              <p>purplebeanagro@gmail.com</p>
             </div>
             <div className="info-card">
               <FaPhone className="info-icon" />
               <h3>Phone</h3>
-              <p>+1 (123) 456-7890</p>
+              <p>+8101287339</p>
             </div>
             <div className="info-card">
               <FaMapMarkerAlt className="info-icon" />
               <h3>Address</h3>
-              <p>123 Tea Lane, Assam, India</p>
+              <p>Dergaon, Chunigaon, Assam 785614</p>
             </div>
           </div>
 

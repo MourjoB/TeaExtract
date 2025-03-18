@@ -7,7 +7,7 @@ function Hero() {
       <div className="container">
         <div className="hero-content">
           <h1>Embrace Nature's Essence</h1>
-          <p>Handcrafted products made with love and natural ingredients for your body, mind, and soul.</p>
+          <p>Where the rich heritage of Assam’s tea estates meets modern innovation.</p>
           <a href="#products" className="btn">Explore Our Collection</a>
         </div>
       </div>
