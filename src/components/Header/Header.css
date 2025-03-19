@@ -146,3 +146,137 @@ header.white-header {
     height: 30px; /* Smaller on mobile */
   }
 }
+/* Existing styles */
+header.white-header {
+  background-color: white;
+  border: none;
+}
+
+.white-header .container {
+  background-color: white;
+  border: none;
+}
+
+.white-nav {
+  background-color: white;
+  border: none !important;
+  box-shadow: none;
+}
+
+/* New styles for the logos container */
+.logos-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between logos */
+}
+
+.logo-image {
+  height: 60px; /* Increased height for larger logos */
+  width: auto;
+}
+
+.purple-beans-logo {
+  height: 60px; /* Increased height for larger logos */
+}
+
+/* Make sure your navigation links have appropriate color */
+.nav-links a {
+  color: #333;
+}
+
+/* Responsive adjustment for logos */
+@media (max-width: 768px) {
+  .logos-container {
+    gap: 10px;
+  }
+
+  .logo-image {
+    height: 50px; /* Slightly smaller on mobile */
+  }
+
+  .purple-beans-logo {
+    height: 50px; /* Slightly smaller on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    height: 40px; /* Even smaller for very small screens */
+  }
+
+  .purple-beans-logo {
+    height: 40px; /* Even smaller for very small screens */
+  }
+}
+/* Existing styles */
+header.white-header {
+  background-color: white;
+  border: none;
+}
+
+.white-header .container {
+  background-color: white;
+  border: none;
+}
+
+.white-nav {
+  background-color: white;
+  border: none !important;
+  box-shadow: none;
+}
+
+/* New styles for the logos container */
+.logos-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between logos */
+}
+
+.logo-image {
+  height: 80px; /* Larger height for desktop */
+  width: auto;
+}
+
+.purple-beans-logo {
+  height: 80px; /* Larger height for desktop */
+}
+
+/* Make sure your navigation links have appropriate color */
+.nav-links a {
+  color: #333;
+}
+
+/* Responsive adjustment for logos */
+@media (max-width: 992px) {
+  .logo-image {
+    height: 70px; /* Slightly smaller for tablets */
+  }
+
+  .purple-beans-logo {
+    height: 70px; /* Slightly smaller for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .logos-container {
+    gap: 15px; /* Reduce gap for smaller screens */
+  }
+
+  .logo-image {
+    height: 60px; /* Larger height for mobile */
+  }
+
+  .purple-beans-logo {
+    height: 60px; /* Larger height for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    height: 50px; /* Slightly smaller for very small screens */
+  }
+
+  .purple-beans-logo {
+    height: 50px; /* Slightly smaller for very small screens */
+  }
+}
