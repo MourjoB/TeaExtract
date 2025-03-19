@@ -280,3 +280,76 @@ header.white-header {
     height: 50px; /* Slightly smaller for very small screens */
   }
 }
+/* Existing styles */
+header.white-header {
+  background-color: white;
+  border: none;
+}
+
+.white-header .container {
+  background-color: white;
+  border: none;
+}
+
+.white-nav {
+  background-color: white;
+  border: none !important;
+  box-shadow: none;
+}
+
+/* New styles for the logos container */
+.logos-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between logos */
+}
+
+.logo-image {
+  height: 60px; /* Default height for Sita Naturals logo */
+  width: auto;
+}
+
+.purple-beans-logo {
+  height: 90px; /* 1.5x larger than Sita Naturals logo (60px * 1.5 = 90px) */
+  width: auto;
+}
+
+/* Make sure your navigation links have appropriate color */
+.nav-links a {
+  color: #333;
+}
+
+/* Responsive adjustment for logos */
+@media (max-width: 992px) {
+  .logo-image {
+    height: 50px; /* Slightly smaller for tablets */
+  }
+
+  .purple-beans-logo {
+    height: 75px; /* 1.5x larger than Sita Naturals logo (50px * 1.5 = 75px) */
+  }
+}
+
+@media (max-width: 768px) {
+  .logos-container {
+    gap: 15px; /* Reduce gap for smaller screens */
+  }
+
+  .logo-image {
+    height: 40px; /* Smaller height for mobile */
+  }
+
+  .purple-beans-logo {
+    height: 60px; /* 1.5x larger than Sita Naturals logo (40px * 1.5 = 60px) */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    height: 35px; /* Slightly smaller for very small screens */
+  }
+
+  .purple-beans-logo {
+    height: 52.5px; /* 1.5x larger than Sita Naturals logo (35px * 1.5 = 52.5px) */
+  }
+}
